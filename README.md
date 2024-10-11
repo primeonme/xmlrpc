@@ -3,7 +3,7 @@
 find endpoint XMLRPC servers on WordPress :
 ```
 POST /xmlrpc.php HTTP/1.1
-Host: example.com
+Host: target.com
 Content-Length: 135
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -15,7 +15,7 @@ Content-Length: 135
 XMLRPC PINGBACKS
 ```
 POST /xmlrpc.php HTTP/1.1
-Host: example.com
+Host: target.com
 Content-Length: 303
 
 <?xml version="1.0" encoding="UTF-8"?>

@@ -1,0 +1,2 @@
+# xmlrpc
+methode xmlrpc.php
